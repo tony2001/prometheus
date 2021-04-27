@@ -19,8 +19,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/pkg/exemplar"
-	"github.com/prometheus/prometheus/pkg/labels"
+	"github.com/tony2001/prometheus/v2/pkg/exemplar"
+	"github.com/tony2001/prometheus/v2/pkg/labels"
 )
 
 func TestOpenMetricsParse(t *testing.T) {

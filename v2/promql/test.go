@@ -26,13 +26,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	"github.com/prometheus/prometheus/promql/parser"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/tsdb"
-	"github.com/prometheus/prometheus/util/teststorage"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/tony2001/prometheus/v2/pkg/labels"
+	"github.com/tony2001/prometheus/v2/pkg/timestamp"
+	"github.com/tony2001/prometheus/v2/promql/parser"
+	"github.com/tony2001/prometheus/v2/storage"
+	"github.com/tony2001/prometheus/v2/tsdb"
+	"github.com/tony2001/prometheus/v2/util/teststorage"
+	"github.com/tony2001/prometheus/v2/util/testutil"
 )
 
 var (
